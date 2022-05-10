@@ -1,0 +1,19 @@
+<ID> 1 </ID>
+<environment> Win 10 x64, Версия 98.0.4758.102 (Официальная сборка), (64 бит)</environment>
+<project> Ksendzov_courses </project>
+<description> При входе в аккаунт через аккаунт Google при наведении курсора на иконку "Мой профиль" отображается некоректное имя аккаунта </description>
+<build_version> _______ </build_version>
+<module> Регистрация, авторизация </module>
+<status> new </status> 
+<author> Natalia Arshinova </author> 
+<severity> major </severity>
+<priority> low </priority>
+<STR> 
+  <step1> 1. Открыть страницу Aliexpress.ru </step1>
+  <step2>  2. Кликнуть на кнопку "Мой профиль". </step2>
+  <step3>    3. Кликнуть на кнопку "Войти". </step3>
+  <step4>   4. Войти в аккаунт используя раздел "войти через соцсети". </step4>
+  <step5>   5. Кликнуть на иконку "Google". </step5>
+</STR>
+<actual_result> При входе в аккаунт через аккаунт Google при наведении курсора на иконку "Мой профиль" отображается сообщение "и снова здравствуйте, google". </actual_result>
+<expected_result> Отображается фактическое имя пользователя использованное в сервисах Google. </expected_result>
