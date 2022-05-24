@@ -1,7 +1,7 @@
 # XML
 <h2 align="center">GIT HW_2/XML</h2>
 
-**1. Создать внешний репозиторий c названием XML.**<hr>
+**1. Создать внешний репозиторий c названием XML.**<br>
 <i>веб интерфейс github.com, залогинитьс, перейти в Repositories, создание новой репозитории New, имя XML, Add a ReadMe file, Create repository</i>
 
 **2. Клонировать репозиторий XML на локальный компьютер.**
@@ -9,16 +9,16 @@
 
     cd ..
     git clone https://github.com/narshinova/XML.git
-**3. Внутри локального XML создать файл “new.xml”.**<hr>
+**3. Внутри локального XML создать файл “new.xml”.**<br>
 ```
     cd XML
     touch new.xml
 ```
-**4. Добавить файл под гит.**
+**4. Добавить файл под гит.**<br>
     ```
-    git add new.xml
+    git add new.xml<br>
     ```
-**5. Закоммитить файл.**
+**5. Закоммитить файл.**<br>
 ```
     git commit -m 'Create new.xml'
 ```
@@ -28,7 +28,7 @@ git push
 ```
 **7. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.**
 
-<i>vim new.xml<hr>
+<i>vim new.xml<br>
 режим редактироваие i</i>
 ```xml
 <xml>
@@ -50,7 +50,7 @@ toush preferences.xml
 ```
 **10. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.**
 
-<i>vim preferences.xml<hr>
+<i>vim preferences.xml<br>
 режим редактироваие i</i>
 ```xml
 <xml>
@@ -64,7 +64,7 @@ toush preferences.xml
 <i>выйти из vim нажатием Esc :wq Enter</i>
 
 **11. Создать файл skills.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML**
-<i>vim skills.xml<hr>
+<i>vim skills.xml<br>
 режим редактироваие i</i>
 ```xml
 <xml>
@@ -96,21 +96,21 @@ toush preferences.xml
         <skill_26>Методология разработки Scrum.</skill_26>
         <skill_27>Python. (Изучение основ. Создание клиент серверного приложения)</skill_27>
 </xml>
-```xml
+```
 <i>выйти из vim нажатием Esc :wq Enter</i>
 
 **12. Сделать коммит в одну строку.**
 ```
     git add . && git commit -m 'Update file'
-    
+```
 **13. Отправить сразу 2 файла на внешний репозиторий.**
 
     git push
     
-**14. На веб интерфейсе создать файл bug_report.xml.**
+**14. На веб интерфейсе создать файл bug_report.xml.**<br>
 <i>веб интерфейс Add file - Create new file создание файла - название bug_report.json</i>
 
-**15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.**
+**15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.**<br>
 <i>коммит Create bug_report.xml и сохранить</i>
 
 **16. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.**
@@ -128,7 +128,7 @@ toush preferences.xml
 	<Status>Status</Status>
 </xml>
 ```
-**17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.**
+**17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.**<br>
 <i>Update bug_report.json - Commit changes</i>
 
 **18. Синхронизировать внешний и локальный репозиторий XML**
