@@ -2,7 +2,7 @@
 <h2 align="center">GIT HW_2/XML</h2>
 
 **1. Создать внешний репозиторий c названием XML.**<br>
-<i>веб интерфейс github.com, залогинитьс, перейти в Repositories, создание новой репозитории New, имя XML, Add a ReadMe file, Create repository</i>
+<i>Веб интерфейс github.com, залогиниться, перейти в Repositories, создание новой репозитории New, имя XML, Add a ReadMe file, Create repository</i>
 
 **2. Клонировать репозиторий XML на локальный компьютер.**
 <i>в веб интерфейсе Code - HTTPS - COPY</i>
@@ -16,8 +16,8 @@
 ```
 **4. Добавить файл под гит.**<br>
     ```
-    git add new.xml<br>
-    ```
+    git add new.xml
+    ```<br>
 **5. Закоммитить файл.**<br>
 ```
     git commit -m 'Create new.xml'
@@ -29,13 +29,13 @@ git push
 **7. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.**
 
 <i>vim new.xml<br>
-режим редактироваие i</i>
+режим редактирования i</i>
 ```xml
 <xml>
-        <Full_name>Zaitseva Margarita Olegovna</Full_name>
-        <Age>34</Age>
-        <Number_of_pets>1</Number_of_pets>
-        <Future_desired_salary>50000$</Future_desired_salary>
+	<Full_name>Arshinova Natalia Alexandrovna</Full_name>
+	<Age>37</Age>
+	<Number_of_pets>1</Number_of_pets>
+	<Future_desired_salary>1000$</Future_desired_salary>
 </xml>
 ```
 <i>выйти из vim нажатием Esc :wq Enter</i>
@@ -59,7 +59,7 @@ toush preferences.xml
         <Favorite_food>Fast Food</Favorite_food>
         <Favorite_time_of_the_year>Summer</Favorite_time_of_the_year>
         <Side_you_would_like_tovisit>USA</Side_you_would_like_tovisit>
-</xml>
+</xml>	
 ```
 <i>выйти из vim нажатием Esc :wq Enter</i>
 
@@ -117,15 +117,25 @@ toush preferences.xml
 <i>редактирование файла</i>
 ```xml
 <xml>
-	<ID>ID</ID>
-	<Summary>Summary</Summary>
-	<Description>Description</Description>
-	<Actual_result>Actual result</Actual_result>
-	<Expected_result>Expected result</Expected_result>
-	<Attachments>Attachments</Attachments>
-	<Priority>Priority</Priority>
-	<Severity>Severity</Severity>
-	<Status>Status</Status>
+	<ID> 1 </ID>
+	<environment> Win 10 x64, Версия 98.0.4758.102 (Официальная сборка), (64 бит)</environment>
+	<project> Ksendzov_courses </project>
+	<description> При входе в аккаунт через аккаунт Google при наведении курсора на иконку "Мой профиль" отображается 	некоректное имя аккаунта </description>
+	<build_version> _______ </build_version>
+	<module> Регистрация, авторизация </module>
+	<status> new </status> 
+	<author> Natalia Arshinova </author> 
+	<severity> major </severity>
+	<priority> low </priority>
+	<STR> 
+ 	 	<step1> 1. Открыть страницу Aliexpress.ru </step1>
+  		<step2> 2. Кликнуть на кнопку "Мой профиль". </step2>
+ 		<step3> 3. Кликнуть на кнопку "Войти". </step3>
+  		<step4> 4. Войти в аккаунт используя раздел "войти через соцсети". </step4>
+  		<step5> 5. Кликнуть на иконку "Google". </step5> 
+	</STR>
+	<actual_result> При входе в аккаунт через аккаунт Google при наведении курсора на иконку "Мой профиль" отображается 	сообщение "и снова здравствуйте, google". </actual_result>
+	<expected_result> Отображается фактическое имя пользователя использованное в сервисах Google. </expected_result>
 </xml>
 ```
 **17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.**<br>
