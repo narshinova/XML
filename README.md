@@ -14,10 +14,10 @@
     cd XML
     touch new.xml
 ```
-**4. Добавить файл под гит.**<br>
-    ```
+**4. Добавить файл под гит.**
+    
     git add new.xml
-    ```<br>
+    
 **5. Закоммитить файл.**<br>
 ```
     git commit -m 'Create new.xml'
