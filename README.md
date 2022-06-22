@@ -31,12 +31,13 @@ git push
 <i>vim new.xml<br>
 режим редактирования i</i>
 ```xml
-<xml>
+<?xml version="1.0" encoding="UTF-8"?>
+<aboutme>
 	<Full_name>Arshinova Natalia Alexandrovna</Full_name>
 	<Age>37</Age>
 	<Number_of_pets>1</Number_of_pets>
 	<Future_desired_salary>1000$</Future_desired_salary>
-</xml>
+</aboutme>
 ```
 <i>выйти из vim нажатием Esc :wq Enter</i>
 
@@ -53,13 +54,14 @@ toush preferences.xml
 <i>vim preferences.xml<br>
 режим редактироваие i</i>
 ```xml
-<xml>
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
 	<Favorite_movie>Queen of the Damned</Favorite_movie>
         <Favorite_series>Black Mirror</Favorite_series>
         <Favorite_food>Fast Food</Favorite_food>
         <Favorite_time_of_the_year>Summer</Favorite_time_of_the_year>
         <Side_you_would_like_tovisit>USA</Side_you_would_like_tovisit>
-</xml>	
+</preferences>	
 ```
 <i>выйти из vim нажатием Esc :wq Enter</i>
 
@@ -67,7 +69,8 @@ toush preferences.xml
 <i>vim skills.xml<br>
 режим редактироваие i</i>
 ```xml
-<xml>
+<?xml version="1.0" encoding="UTF-8"?>
+<skills>
         <skill_1>Базовая теория. Что такое тестирование, багрепорты, документация, виды, методы, направления тестирования и т.п. SDLC, STLC.</skill_1>
         <skill_2>Что такое клиент-серверная архитектура.</skill_2>
         <skill_3>HTTP Методы запросов на сервер.</skill_3>
@@ -95,7 +98,7 @@ toush preferences.xml
         <skill_25>Нагрузочное тестирование в Jmeter.</skill_25>
         <skill_26>Методология разработки Scrum.</skill_26>
         <skill_27>Python. (Изучение основ. Создание клиент серверного приложения)</skill_27>
-</xml>
+</skills>
 ```
 <i>выйти из vim нажатием Esc :wq Enter</i>
 
@@ -116,7 +119,8 @@ toush preferences.xml
 **16. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.**
 <i>редактирование файла</i>
 ```xml
-<xml>
+<?xml version="1.0" encoding="UTF-8"?>
+<bugreport>
 	<ID> 1 </ID>
 	<environment> Win 10 x64, Версия 98.0.4758.102 (Официальная сборка), (64 бит)</environment>
 	<project> Ksendzov_courses </project>
@@ -136,7 +140,7 @@ toush preferences.xml
 	</STR>
 	<actual_result> При входе в аккаунт через аккаунт Google при наведении курсора на иконку "Мой профиль" отображается 	сообщение "и снова здравствуйте, google". </actual_result>
 	<expected_result> Отображается фактическое имя пользователя использованное в сервисах Google. </expected_result>
-</xml>
+</bugreport>
 ```
 **17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.**<br>
 <i>Update bug_report.json - Commit changes</i>
