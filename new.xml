@@ -1,6 +1,7 @@
-<xml>
+<?xml version="1.0" encoding="UTF-8"?>
+<Aboutme>
 	<Full_name>Arshinova Natalia Alexandrovna</Full_name>
 	<Age>37</Age>
 	<Number_of_pets>1</Number_of_pets>
 	<Future_desired_salary>1000$</Future_desired_salary>
-</xml>
+</Aboutme>
