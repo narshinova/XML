@@ -1,4 +1,5 @@
-<xml>
+<?xml version="1.0" encoding="UTF-8"?>
+<Bug_report>
 	<ID> 1 </ID>
 	<environment> Win 10 x64, Версия 98.0.4758.102 (Официальная сборка), (64 бит)</environment>
 	<project> Ksendzov_courses </project>
@@ -18,4 +19,4 @@
 	</STR>
 	<actual_result> При входе в аккаунт через аккаунт Google при наведении курсора на иконку "Мой профиль" отображается 	сообщение "и снова здравствуйте, google". </actual_result>
 	<expected_result> Отображается фактическое имя пользователя использованное в сервисах Google. </expected_result>
-</xml>
+</Bug_report>
