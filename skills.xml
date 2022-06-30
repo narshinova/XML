@@ -22,8 +22,6 @@
         <skill_20>Основы bash скриптинг, автоматизация рутинных задач на сервере.</skill_20>
         <skill_21>Доступ к удалённым серверам.</skill_21>
         <skill_22>Основы SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join).</skill_22>
-        <skill_23>База данных Postgres (установка, настройка и использование).</skill_23>
-        <skill_24>Нереляционная база данных Redis (установка, настройка и использование).</skill_24>
-        <skill_25>Нагрузочное тестирование в Jmeter.</skill_25>
-        <skill_26>Методология разработки Scrum.</skill_26>
+        <skill_23>Нагрузочное тестирование в Jmeter.</skill_25>
+        <skill_24>Методология разработки Scrum.</skill_26>
 </skills>
