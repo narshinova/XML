@@ -58,9 +58,9 @@ toush preferences.xml
 <preferences>
 	<Favorite_movie>Queen of the Damned</Favorite_movie>
         <Favorite_series>Black Mirror</Favorite_series>
-        <Favorite_food>Fast Food</Favorite_food>
+        <Favorite_food>Pizza</Favorite_food>
         <Favorite_time_of_the_year>Summer</Favorite_time_of_the_year>
-        <Side_you_would_like_tovisit>USA</Side_you_would_like_tovisit>
+        <Side_you_would_like_tovisit>New Zealand</Side_you_would_like_tovisit>
 </preferences>	
 ```
 <i>выйти из vim нажатием Esc :wq Enter</i>
